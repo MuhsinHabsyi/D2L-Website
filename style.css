@@ -1,0 +1,9 @@
+body {
+    font-family: 'League Spartan', sans-serif;
+    overflow-x: hidden;
+}
+
+body p, .p-small, footer p {
+    font-family: 'Satoshi', sans-serif;  
+    
+}

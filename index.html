@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Font Awesome Google CDN -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet" />
+    <!-- Satoshi CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS Animation CDN -->
+    <title>D2L Page</title>
+  </head>
+  <body class="bg-white">
+    <!-- Navbar -->
+
+    <div class="w-full mx-auto border-t-[42px] border-[#F1592B]">
+      <nav
+        class="lg:flex lg:justify-between items-center max-w-6xl mx-4 lg:mx-auto p-4 mt-[23px] lg:mt-4 text-lg text-gray-700 bg-white rounded-xl sm:border-2"
+        data-aos="slide-down"
+        data-aos-duration="800"
+        data-aos-easing="ease-out"
+      >
+        <div class="flex justify-between items-center flex-wrap w-auto">
+          <div class="me-6">
+            <a href="#">
+              <a href="index.html"
+                ><img src="images/logo_full.png" alt="Logo" class="h-[63px]"
+              /></a>
+            </a>
+          </div>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="menu-button"
+            class="h-6 w-6 cursor-pointer lg:hidden block"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="hidden lg:block lg:flex-1 lg:items-center lg:w-auto"
+          id="menu"
+        >
+          <ul class="gap-6 lg:flex lg:justify-between pt-4 lg:pt-0 w-full">
+            <li class="flex items-center text-[22px] font-medium">
+              <a class="block text-[#252525] hover:text-[#000000]" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="flex items-center mt-4 lg:mt-0 text-[22px] font-medium">
+              <a class="block text-[#252525] hover:text-[#000000]" href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="flex items-center mt-4 lg:mt-0 text-[22px] font-medium">
+              <a class="block text-[#252525] hover:text-[#000000]" href="#"
+                >Blog & Media</a
+              >
+            </li>
+            <li class="flex items-center mt-4 lg:mt-0 text-[22px] font-medium">
+              <a class="block text-[#252525] hover:text-[#000000]" href="#"
+                >Contact Us</a
+              >
+            </li>
+            <li class="ms-auto mt-4 lg:mt-0">
+              <button
+                class="mb-4 lg:mb-0 border border-[#252525] px-[30px] py-4 w-full lg:w-auto rounded-full text-[18px] leading-[20px] font-medium"
+              >
+                For Businesses
+              </button>
+              <button
+                class="bg-[#F1592B] text-white px-[30px] py-4 w-full lg:w-auto rounded-full text-[18px] leading-[20px] font-medium"
+              >
+                Join Community
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+
+    <section
+      class="text-center py-16 px-4 flex flex-col items-center space-y-10 mb-10"
+    >
+      <div>
+        <h1 class="mt-6 mb-5 text-2xl md:text-4xl lg:text-[40px] font-semibold">
+          Download <span class="text-[#F1592B]">GoodHood.sg</span> Find it in
+          your app store and play store. <br />
+          Search for GoodHood.sg and download it for free!
+        </h1>
+      </div>
+      <div class="flex justify-center space-x-4">
+        <button
+          class="bg-[#252525] text-white px-[15px] md:px-[27px] py-[14px] md:py-[17px] rounded-full flex items-center space-x-2"
+        >
+          <img src="images/apple_logo_1.png" alt="apple logo" />
+          <span class="text-base md:text-lg">App store</span>
+          <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
+        </button>
+        <button
+          class="border border-gray-700 px-[15px] md:px-[27px] py-[14px] md:py-[17px] rounded-full flex items-center space-x-2"
+        >
+          <img src="images/playstore_logo_1.png" alt="playstore logo" />
+          <span class="text-base md:text-lg font-[450]">Google play</span>
+          <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+        </button>
+      </div>
+    </section>
+
+    <div
+      class="w-full h-[250px] sm:h-[561px] bg-cover bg-center bg-contain bg-no-repeat bg-[url('images/bg.png')]"
+      data-aos="slide-up"
+      data-aos-duration="800"
+      data-aos-easing="ease-out"
+    ></div>
+
+    <!-- Advantage Section -->
+    <section class="bg-[#F1592B] text-white py-10 md:py-20">
+      <div class="max-w-6xl mx-auto">
+        <h1
+          class="text-center p-7 mb-5 text-2xl md:text-4xl lg:text-[40px] font-semibold"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          What YOU’LL get
+        </h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div
+            class="text-center md:text-left max-w-md mx-auto px-6 md:ps-6 lg:ps-0"
+            data-aos="slide-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <img
+              src="images/image_advantage_1.png"
+              class="rounded-3xl mb-4 w-auto h-[250px] md:h-[348px] lg:h-[300px] mx-auto object-cover"
+            />
+            <h2 class="mb-3 text-2xl md:text-3xl font-semibold mx-auto">
+              Make a Tangible Difference
+            </h2>
+            <p class="text-base md:text-lg opacity-60">
+              Your efforts will have a measurable impact on the lives of
+              individuals and families who struggle to access food.
+            </p>
+          </div>
+          <div
+            class="text-center md:text-left max-w-md mx-auto px-6 md:ps-6 lg:ps-0"
+            data-aos="slide-up"
+            data-aos-duration="1100"
+            data-aos-easing="ease-in-out"
+          >
+            <img
+              src="images/image_advantage_2.png"
+              class="rounded-3xl mb-4 w-auto h-[250px] md:h-[348px] lg:h-[300px] mx-auto object-cover"
+            />
+            <h2 class="mb-3 text-2xl md:text-3xl font-semibold mx-auto">
+              Environmental consciousness
+            </h2>
+            <p class="text-base md:text-lg opacity-60">
+              Your efforts will have a measurable impact on the lives of
+              individuals and families who struggle to access food
+            </p>
+          </div>
+          <div
+            class="text-center md:text-left max-w-md mx-auto px-6 md:ps-6 lg:ps-0"
+            data-aos="slide-up"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out"
+          >
+            <img
+              src="images/image_advantage_3.png"
+              class="rounded-3xl mb-4 w-auto h-[250px] md:h-[348px] lg:h-[300px] mx-auto object-cover"
+            />
+            <h2 class="mb-3 text-2xl md:text-3xl font-semibold mx-auto">
+              Expand your network
+            </h2>
+            <p class="text-base md:text-lg opacity-60">
+              Your efforts will have a measurable impact on the lives of
+              individuals and families who struggle to access food.
+            </p>
+          </div>
+          <div
+            class="text-center md:text-left max-w-md mx-auto px-6 md:ps-6 lg:ps-0"
+            data-aos="slide-up"
+            data-aos-duration="1700"
+            data-aos-easing="ease-in-out"
+          >
+            <img
+              src="images/image_advantage_4.png"
+              class="rounded-3xl mb-4 w-auto h-[250px] md:h-[348px] lg:h-[300px] mx-auto object-cover"
+            />
+            <h2 class="mb-3 text-2xl md:text-3xl font-semibold mx-auto">
+              Gain New Skills
+            </h2>
+            <p class="text-base md:text-lg opacity-60">
+              Your efforts will have a measurable impact on the lives of
+              individuals and families who struggle to access food.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Procedures Section -->
+    <section class="bg-white overflow-x-hidden">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1
+          class="text-[#F1592B] my-20 md:my-40 text-2xl md:text-4xl lg:text-[40px] font-semibold"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          Get Started Today!
+        </h1>
+      </div>
+
+      <!-- Sign up -->
+      <div
+        class="flex flex-col md:flex-row items-center gap-16 max-w-5xl mx-auto mb-[128px] px-4 md:px-8"
+      >
+        <img
+          src="images/signup_image.png"
+          alt="Sign Up"
+          class="w-auto h-[390px] lg:h-auto"
+          data-aos="slide-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-back"
+        />
+        <div
+          class="text-center md:text-left max-w-2xl md:max-w-lg md:ml-16"
+          data-aos="slide-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-back"
+        >
+          <h1 class="text-2xl md:text-4xl lg:text-[40px] font-semibold">
+            <span class="text-[#F1592B]">Sign up</span> and set up your account
+            profile. It only takes a minute!
+          </h1>
+          <p class="text-[#9BA7B6] mt-4">
+            Start your neighborhood journey today. No complicated forms, just
+            easy social login options.
+          </p>
+        </div>
+      </div>
+
+      <!-- Volunteer Hub -->
+      <div
+        class="flex flex-col md:flex-row-reverse items-center gap-16 max-w-5xl mx-auto mb-[128px] px-4 md:px-8"
+      >
+        <img
+          src="images/volunteer_image.png"
+          alt="Volunteer Hub"
+          class="w-auto h-[390px] lg:h-auto"
+          data-aos="slide-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-back"
+        />
+        <div
+          class="text-center md:text-left max-w-2xl md:max-w-lg md:mr-16"
+          data-aos="slide-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-back"
+        >
+          <h1 class="text-2xl md:text-4xl lg:text-[40px] font-semibold">
+            Find the Volunteer Hub in your profile, look for
+            <span class="text-[#F1592B]">“D2L.sg Volunteer Hub”</span>.
+          </h1>
+          <p class="text-[#9BA7B6] mt-4">
+            Your gateway to making a difference – access volunteer
+            opportunities, track your impact, and connect with fellow
+            volunteers.
+          </p>
+        </div>
+      </div>
+
+      <!-- Test Section -->
+      <div
+        class="flex flex-col md:flex-row items-center gap-16 max-w-5xl mx-auto mb-[128px] px-4 md:px-8"
+      >
+        <img
+          src="images/test_image.png"
+          alt="test image"
+          class="w-auto h-[390px] lg:h-auto"
+          data-aos="slide-right"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-back"
+        />
+        <div
+          class="text-center md:text-left max-w-2xl md:max-w-lg md:ml-16"
+          data-aos="slide-left"
+          data-aos-duration="1000"
+          data-aos-easing="ease-out-back"
+        >
+          <h1 class="text-2xl md:text-4xl lg:text-[40px] font-semibold">
+            <span class="text-[#F1592B]">Sign up</span> and set up your account
+            profile. It only takes a minute!
+          </h1>
+          <p class="text-[#9BA7B6] mt-4">
+            Start your neighborhood journey today. No complicated forms, just
+            easy social login options.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="mx-2">
+      <div
+        class="container mx-auto px-6 bg-[#013B01] text-white py-12 rounded-2xl max-w-8xl mt-[128px] mb-100"
+      >
+        <div
+          class="text-center mt-8 border-b border-white border-opacity-50 pb-8"
+        >
+          <div
+            data-aos="slide-down"
+            data-aos-duration="800"
+            data-aos-easing="ease-out"
+          >
+            <h1 class="text-2xl md:text-4xl lg:text-[40px] font-medium mb-6">
+              Transform Your Food Surplus <br />
+              Management Now!
+            </h1>
+            <button class="bg-[#F1592B] text-white px-6 py-3 rounded-full">
+              Contact us
+            </button>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pb-8">
+          <div
+            class="lg:ml-[84px] pt-8"
+            data-aos="slide-right"
+            data-aos-duration="800"
+            data-aos-easing="ease-out"
+          >
+            <div class="flex items-center space-x-2">
+              <img
+                src="images/Logo_Footer.png"
+                alt="D2L.sg Logo"
+                class="w-auto h-auto mx-auto md:mx-0"
+              />
+            </div>
+            <p
+              class="text-[#9BA7B6] mt-4 text-sm leading-[25px] font-normal text-center md:text-left"
+            >
+              D2L.sg is a holistic, one-stop, end-to-end food surplus and waste
+              management social enterprise; managing ALL TYPES of food surplus
+              and waste via proprietary smart-matching AI technology, ensuring
+              that food surplus and waste are matched to their best 2nd life
+              quickly and efficiently.
+            </p>
+          </div>
+          <div
+            class="border-0 md:border-l border-white border-opacity-50 text-center md:text-left md:pl-16 lg:pl-32 pt-8"
+          >
+            <div
+              data-aos="slide-up"
+              data-aos-duration="800"
+              data-aos-easing="ease-out"
+            >
+              <h3 class="font-semibold text-2xl">Quick Links</h3>
+              <ul
+                class="mt-4 space-y-2 text-[#9BA7B6] p-small text-lg/8 font-medium opacity-60"
+              >
+                <li><a href="#" class="hover:underline">Home</a></li>
+                <li><a href="#" class="hover:underline">About us</a></li>
+                <li><a href="#" class="hover:underline">Blog & Media</a></li>
+                <li><a href="#" class="hover:underline">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="lg:mr-40 pt-8 md:pr-22 text-center md:text-left"
+            data-aos="slide-up"
+            data-aos-duration="800"
+            data-aos-easing="ease-out"
+          >
+            <h3 class="font-semibold text-2xl">Relevant Links</h3>
+            <ul
+              class="mt-4 space-y-2 text-[#9BA7B6] p-small text-lg/8 font-medium opacity-60"
+            >
+              <li><a href="#" class="hover:underline">Join as a DSS</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col-reverse md:flex-row justify-center items-center mt-8 mb-8 mx-2 text-center"
+      >
+        <p class="text-[#9BA7B6] text-sm md:text-base md:mr-40">
+          Copyright &copy; 2025 D2L.sg — All Rights Reserved. Protected by
+          reCAPTCHA the
+          <a href="#" class="underline">Google Privacy Policy</a> and
+          <a href="#" class="underline">Terms of Service</a> apply.
+        </p>
+        <div class="flex space-x-4 mt-4 md:mt-0 mb-8 md:mb-0">
+          <a
+            href="#"
+            class="border border-black px-4 py-2 rounded-full flex items-center space-x-2 hover:bg-gray-100"
+          >
+            <img
+              src="images/instagram_logo.png"
+              alt="Instagram"
+              class="w-5 h-5"
+            />
+            <span>Instagram</span>
+          </a>
+          <a
+            href="#"
+            class="border border-black px-4 py-2 rounded-full flex items-center space-x-2 hover:bg-gray-100"
+          >
+            <img
+              src="images/facebook_logo.png"
+              alt="Facebook"
+              class="w-5 h-5"
+            />
+            <span>Facebook</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
